@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6-alpine
+FROM rabbitmq:3.6-management-alpine
 
 RUN apk add --no-cache curl
 
